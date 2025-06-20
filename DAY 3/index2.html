@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample static web app</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(254, 201, 41);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    h1,
+    h3 {
+      color: red;
+    }
+
+    h3 {
+      text-decoration: underline;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    ol,ul li{
+      list-style-type: lower-roman;
+    }
+  </style>
+  <body>
+    <header></header>
+    <main>
+      <h1>This is a sample static web page</h1>
+      <br />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod unde sed
+        aliquam assumenda, impedit quidem incidunt sunt deleniti earum,
+        doloribus officia, modi veritatis obcaecati architecto voluptatum
+        inventore eaque repellat. Tempore, asperiores in veritatis molestias
+        beatae inventore et quidem aspernatur consequatur ipsum repudiandae
+        adipisci laborum, explicabo, numquam sit. Eligendi, laudantium itaque
+        quaerat est quidem dignissimos optio.
+      </p>
+      <br />
+      <img
+        src="assets/img1.jpeg"
+        alt="image of green grass field"
+        width="350px"
+      /><br /><br />
+
+      <audio src="assets/1.mp3" controls></audio><br /><br />
+
+      <video src="assets/1.mp4" controls loop muted width="350px"></video
+      ><br /><br />
+
+      <iframe
+        src="https://www.flipkart.com/"
+        frameborder="0"
+        width="450px"
+        height="600px"
+      ></iframe
+      ><br /><br /><br />
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/DbejGFdM0z4?si=tE4pKL9k-BPJRAOo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe
+      ><br /><br />
+
+      <table border="1">
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>mathematics</td>
+          <td>WEB</td>
+          <td>IPR</td>
+          <td>English</td>
+          <td>hindi</td>
+        </tr>
+        <tr>
+          <td>web</td>
+          <td>mathematics</td>
+          <td>English</td>
+          <td>ipr</td>
+          <td>social science</td>
+        </tr>
+        <tr>
+          <td>hindi</td>
+          <td>biology</td>
+          <td>geography</td>
+          <td>ai</td>
+          <td>history</td>
+        </tr>
+        <tr>
+          <td>english</td>
+          <td>biology</td>
+          <td>history</td>
+          <td>ai</td>
+          <td>web</td>
+        </tr>
+        <tr>
+          <td>hindi</td>
+          <td>biology</td>
+          <td>geography</td>
+          <td>ai</td>
+          <td>history</td>
+        </tr>
+      </table>
+      <br /><br />
+
+      <h1>Admission Form</h1>
+      <form action="">
+        <label for="first-name">Enter your first name: </label>
+        <input
+          type="text"
+          name="first-name"
+          id="first-name"
+          placeholder="Enter you first name here"
+        /><br /><br />
+
+        <label for="last-name">Enter your Last name: </label>
+        <input
+          type="text"
+          name="last-name"
+          id="first-name"
+          placeholder="Enter you last name here"
+        /><br /><br />
+
+        <label for="last-name">Enter your Address </label>
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Enter you address here"
+        /><br /><br />
+
+        <label>Gender</label>
+        <input type="radio" id="yes" name="gender" value="yes" />
+        <label for="yes">Male</label>
+        <input type="radio" id="no" name="gender" value="no" />
+        <label for="no">Female</label><br /><br />
+
+        <label for="age">Enter your Age : </label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="age"
+        /><br /><br />
+
+        <label for="department">select your department</label>
+        <select name="" id="">
+          <option value="">cse</option>
+          <option value="">cse ai&ml</option>
+          <option value="">cse ds</option>
+          <option value="">ece</option>
+          <option value="">eee</option>
+          <option value="">mechanical</option></select
+        ><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+      <br /><br />
+
+      <ol>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+      </ol>
+      <ul>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+      </ul>
+      <br />
+
+      <h3>list of pages</h3>
+      <br />
+
+      <a href="https://www.google.com/" target="_blank"
+        >Click here for google</a
+      >
+      <br /><br />
+      <a href="https://www.youtube.com/" target="_blank"
+        >Click here for youtube</a
+      >
+    </main>
+  </body>
+</html>
