@@ -85,7 +85,7 @@ if(mark>=75){
 
 //switch
 
-let day=7;
+let day=5;
 switch(day){
     case 1:console.log("Monday");
     break;
